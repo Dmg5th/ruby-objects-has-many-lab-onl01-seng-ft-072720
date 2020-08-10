@@ -10,7 +10,9 @@ class Artist
    Song.all.find_all { |song_obj| song_obj.artist == self }  
   end 
   
-  def add_song()
+  def add_song(song)
+    
+  end 
   
   
 
