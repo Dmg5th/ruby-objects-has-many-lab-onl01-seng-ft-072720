@@ -1,0 +1,7 @@
+class Post 
+  
+  @@all   
+  
+  
+  
+end 
