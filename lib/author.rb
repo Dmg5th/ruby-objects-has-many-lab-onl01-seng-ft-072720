@@ -18,6 +18,10 @@ class Author
     add_post(new_post)
   end 
   
+  def post_count 
+    Post.all.length   
+  end 
+  
 
   
   
