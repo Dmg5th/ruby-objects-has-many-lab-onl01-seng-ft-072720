@@ -14,9 +14,5 @@ attr_accessor :artist, :name
     @@all 
   end 
   
-  def artist=(artist)
-    @artist = artist 
-    @artist.songs.push(self)
-  end 
-  
+
 end 
