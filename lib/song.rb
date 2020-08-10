@@ -10,7 +10,7 @@ attr_accessor :artist, :name
     @@all.push(self)
     end 
 
-  def self.all 
+  def Song.all 
     @@all 
   end 
   
