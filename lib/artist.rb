@@ -8,8 +8,7 @@ class Artist
   end 
   
   def songs
-   Song.all.find_all {  
-    
+   Song.all.find_all { |song_obj| song_obj == self }  
   end 
   
   
