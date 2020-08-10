@@ -3,8 +3,8 @@ class Post
   
   @@all = []  
   
-  def initialize(post)
-    @post = post 
+  def initialize(title)
+    @title = title  
     @@all.push(self)
   end 
   
