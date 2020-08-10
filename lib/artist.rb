@@ -2,7 +2,7 @@ require 'pry'
 class Artist 
   attr_accessor :name
   
-  @@count = 0 
+
   
   def initialize(name)
     @name = name 
@@ -20,6 +20,8 @@ class Artist
     new_song = Song.new(name)
     add_song(new_song)
   end 
+  
+  def self.song
   
   
 
