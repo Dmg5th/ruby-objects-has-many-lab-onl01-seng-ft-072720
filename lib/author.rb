@@ -5,7 +5,9 @@ class Author
     @name = name   
   end 
   
-  def 
+  def posts 
+  Posts.all.select { |post_obj| post.obj.post }  
+  end
   
   
   
